@@ -1,0 +1,20 @@
+# Smart Data Analyzer - Dependencies
+# Install with: pip install -r requirements.txt
+
+# ── Core UI ──────────────────────────────────────────────────────────
+streamlit>=1.32.0
+
+# ── Data handling ─────────────────────────────────────────────────────
+pandas>=2.0.0
+numpy>=1.24.0
+
+# ── Visualization ─────────────────────────────────────────────────────
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scipy>=1.11.0          # Optional: for KDE curve in histograms
+
+# ── AI / LLM ──────────────────────────────────────────────────────────
+anthropic>=0.25.0      # Claude API client
+
+# ── Environment variables ─────────────────────────────────────────────
+python-dotenv>=1.0.0   # Loads .env file automatically
